@@ -1,0 +1,3 @@
+# PI - PROGRAMAÇÃO IMPERATIVA
+
+Essa lista de exercício será para adquirir conhecimento de Gib e GibHub.

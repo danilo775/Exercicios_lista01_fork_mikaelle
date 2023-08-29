@@ -4,8 +4,9 @@
 #include <locale.h>
 
 using namespace std;
+// Exercício 4: Criando outro programa básico
 
-void calculadora(int valor01, int valor02){
+void calculadora(float  valor01, float  valor02){
 
     cout << "Soma = " << valor01 + valor02  << "\n";
     cout << "Divisao = "<< valor01 / valor02 << "\n";
@@ -14,13 +15,12 @@ void calculadora(int valor01, int valor02){
     cout << "Resto = "<< valor01 - valor02 << "\n";
 
 }
+int  main(void){
 
-int main(void){
-
-    int numero1, numero2;
-    cout << "Digite um numero inteiro:";
+    float  numero1, numero2;
+    cout << "Digite um numero float:";
     cin >> numero1;
-    cout << "Digite outro numero inteiro:";
+    cout << "Digite outro numero float:";
     cin >> numero2;
     // cin >> valor02;
 
